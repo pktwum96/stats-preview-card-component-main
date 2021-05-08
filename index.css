@@ -1,0 +1,10 @@
+body {
+  background-color: #090b1a;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-wrapper {
+  color: white;
+  background-color: #1b1938;
+}
