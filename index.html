@@ -14,6 +14,15 @@
 
     <link rel="stylesheet" href="index.css" />
 
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter|Lexend+Deca"
+    />
+    <style>
+      body {
+        font-family: "Inter", serif;
+      }
+    </style>
     <title>Frontend Mentor | Stats preview card component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -28,18 +37,49 @@
     </style>
   </head>
   <body>
-    <div class="main-wrapper">
-      Get insights that help your business grow. Discover the benefits of data
-      analytics and make better decisions regarding revenue, customer
-      experience, and overall efficiency. 10k+ companies 314 templates 12m+
-      queries
-
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+    <div class="body-container">
+      <div class="main-wrapper">
+        <div class="wrapped-item">
+          <div class="wrapped-item-inner">
+            <div>
+              <h1 class="main-heading">
+                Get <span class="accented-text">insights</span> that help your
+                business grow.
+              </h1>
+              <p class="main-paragraph">
+                Discover the benefits of data analytics and make better
+                decisions regarding revenue, customer experience, and overall
+                efficiency.
+              </p>
+            </div>
+            <div class="statistics">
+              <div class="stat">
+                <span class="stat-headings">10k+</span>
+                <span class="stat-text">companies</span>
+              </div>
+              <div class="stat">
+                <span class="stat-headings">314</span>
+                <span class="stat-text">templates</span>
+              </div>
+              <div class="stat">
+                <span class="stat-headings">12M+</span>
+                <span class="stat-text">queries</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrapped-item">
+          <div class="image-layer">
+            <img src="images\image-header-desktop.jpg" />
+          </div>
+        </div>
       </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Kofi</a>.
     </div>
   </body>
 </html>
